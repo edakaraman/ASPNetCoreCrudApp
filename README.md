@@ -1,5 +1,5 @@
 <h1> ASP .Net Core Crud App </h1>
-<p> This is a student enrollment MVC.NET CORE MVC 3.1 CRUD application. </p>
+<p> This is a student enrollment ASP.NET CORE MVC 3.1 CRUD application. </p>
 Technologies used in the project;<br>
 <ul>
 <li> C# </li>
