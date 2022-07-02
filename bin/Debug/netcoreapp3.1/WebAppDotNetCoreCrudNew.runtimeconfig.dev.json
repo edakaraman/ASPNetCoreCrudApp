@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\edaka\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\edaka\\.nuget\\packages"
+    ]
+  }
+}

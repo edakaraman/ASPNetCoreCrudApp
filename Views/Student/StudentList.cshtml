@@ -1,0 +1,53 @@
+﻿@model IEnumerable<WebApp.Models.Student>
+
+@{
+    ViewData["Title"] = "StudentList";
+}
+
+<h1 align="center"> STUDENT LIST </h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th> </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.StudentID)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Classes)
+            </th>
+            <th> </th>
+
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+
+            <th>
+                @Html.DisplayFor(modelItem => item.ID)
+            </th>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StudentID)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Classes)
+            </td>
+
+            <td>
+                @Html.ActionLink("Update", "Create", new { item.ID, item.Name, item.StudentID, item.ClassID }, new { @class = "btn btn-success" })
+                @Html.ActionLink("Delete", "DeleteStd", new { item.ID }, new { @class = "btn btn-danger", onclick = "return confirm('Are you sure you want to delete the recording?')" })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
