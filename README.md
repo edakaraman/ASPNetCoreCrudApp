@@ -2,12 +2,13 @@
 <p> This is a student enrollment ASP.NET CORE MVC 3.1 CRUD application. </p>
 Technologies used in the project;<br>
 <ul>
-<li> C# </li>
- <li> Entity Framework </li>
- <li> HTML </li>
-<li> CSS </li> 
-<li> Bootstrap </li> 
-<li> MS SQL Server </li> 
+   <li> C# </li>
+   <li> Entity Framework </li>
+   <li> HTML </li>
+   <li> CSS </li> 
+   <li> Bootstrap </li> 
+   <li> MS SQL Server </li> 
+ 
 <h2> Home Page(Registered Users) </h2>
 
 ![Screenshot 2022-07-05 173124](https://user-images.githubusercontent.com/95571155/177354136-a77fd488-d223-4e18-a36c-dc1f7e50fe03.png)
