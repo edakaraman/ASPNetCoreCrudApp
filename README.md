@@ -8,6 +8,7 @@ Technologies used in the project;<br>
    <li> CSS </li> 
    <li> Bootstrap </li> 
    <li> MS SQL Server </li> 
+</u>
  
 <h2> Home Page(Registered Users) </h2>
 
